@@ -10,6 +10,7 @@ function gener(el) {
         generatedValue = 1;
     return generatedValue;
 };
+
 //создаем объект где ключ-результат условия, а свойства - соответсующее условию значение
 const objColor = {
     1: '#e03636',
@@ -20,7 +21,7 @@ const objColor = {
 const time = document.querySelectorAll('.time');
 const stat = document.querySelectorAll('.bg_stat');
 
-//запускаем рандом
+//запускаем рандо
 function math() {
     return Math.floor(Math.random() * 10);
 }
@@ -30,8 +31,8 @@ function runTires() {
 const funcRandom = () => {
     arrD = Array(10).fill(0).map(math);
     arrT = Array(10).fill(0).map(math);
-    arr733D = arrD;
     arr733T = arrT;
+    arr733D = arrD;
 
 
     //Объект 5
